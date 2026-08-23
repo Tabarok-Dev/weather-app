@@ -17,7 +17,7 @@ body{
 /*Card Design & Linear Gradient Background */
 .card{
     width: 90%;
-    max-width: 340px;
+    max-width: 470px;
     background: linear-gradient(135deg, #00dbde, #fc00ff);
     background: linear-gradient(180deg, #12d8fa 0%, #1fa2ff 50%, #4355b9);
     color: #fff;
