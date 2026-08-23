@@ -16,13 +16,13 @@ body{
 
 /*Card Design & Linear Gradient Background */
 .card{
-    width: 90%;
-    max-width: 470px;
+    width: 94%;
+    max-width: 450px;
     background: linear-gradient(135deg, #00dbde, #fc00ff);
     background: linear-gradient(180deg, #12d8fa 0%, #1fa2ff 50%, #4355b9);
     color: #fff;
-    padding: 30px 35px;
-    border-radius: 25px;
+    padding: 30px 25px;
+    border-radius: 20px;
     text-align: center;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
