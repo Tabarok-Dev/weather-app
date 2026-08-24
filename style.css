@@ -195,7 +195,7 @@ body {
 
   .weather-icon {
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
     width: 300px;
@@ -205,23 +205,23 @@ body {
 
   .weather h1 {
     position: absolute;
-    top: 300px;
+    top: 220px;
     left: 0;
     width: 100%;
     margin: 0;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     line-height: 1;
   }
 
   .weather h2 {
     position: absolute;
-    top: 400px;
+    top: 295px;
     left: 0;
     width: 100%;
     margin: 0;
     text-align: center;
-    font-size: 43px;
+    font-size: 35px;
   }
 
   /* ================= DETAILS ================= */
@@ -230,18 +230,18 @@ body {
     position: absolute;
     left: 20px;
     right: 20px;
-    bottom: 35px;
+    bottom: 15px;
     width: auto;
     margin: 0;
-    padding-top: 50px;
+    padding-top: 7px;
     border-top: 1px solid rgba(255, 255, 255, 0.25);
   }
 
   .col img {
-    width: 65px;
+    width: 35px;
   }
 
   .col p {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
