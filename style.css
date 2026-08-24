@@ -14,17 +14,16 @@ body{
     padding: 10px;
 }
 
-/*Card Design & Linear Gradient Background */
+/* Card Design & Responsive Width */
 .card{
-   width: 92%;
-   max-width: 450px;
-   background: linear-gradient(135deg, #00feba, #5b548a);
-   color: #fff;
-   margin: 10px auto;
-   border-radius: 20px;
-   padding: 30px 25px;
-   box-sizing: border-box;
-   text-align: center;
+    width: 92%;
+    max-width: 450px;
+    background: linear-gradient(180deg, #12d8fa 0%, #1fa2ff 50%, #4355b9);
+    color: #fff;
+    padding: 30px 25px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 /* Search Box Styling */
@@ -47,6 +46,7 @@ body{
     flex: 1;
     font-size: 16px;
 }
+
 .search input::placeholder{
     color: #999;
 }
@@ -70,20 +70,23 @@ body{
 
 /* Weather Main Info */
 .weather-icon{
-    width: 190px;
-    margin-top: 20px;
+    width: 150px;
+    margin-top: 10px;
 }
+
 .weather .temp{
     font-size: 60px;
     font-weight: 500;
     margin-top: 10px;
 }
+
 .weather .city{
     font-size: 32px;
     font-weight: 400;
     margin-top: -5px;
     margin-bottom: 30px;
 }
+
 /* Bottom Details (Humidity & Wind Speed Layout) */
 .details{
     display: flex;
@@ -92,50 +95,27 @@ body{
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding-top: 20px;
 }
+
 .col{
     display: flex;
     align-items: center;
     gap: 12px;
 }
+
 .col img{
     width: 35px;
 }
+
 .col div{
     text-align: left;
 }
+
 .col p{
     font-size: 16px;
     font-weight: 500;
 }
+
 .col div p:last-child{
     font-size: 13px;
     font-weight: 300;
-}
-/*mobile*/
-@media (max-widh:600px) {
-    .card {
-        padding: 20px 20px;
-        border-radius: 20px;
-    }
-    .search {
-        margin-bottom: 20px;
-    }
-    .weather-icon {
-        width: 140px;
-    }
-
-    .weather .temp {
-        font-size: 48px;
-    }
-    .weather .city {
-        font-size: 26px;
-        margin-bottom: 20px;
-    }
-    .col img {
-        width: 30px;
-    }
-    .col p {
-        font-size: 14px;
-    }
-    
 }
