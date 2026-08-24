@@ -16,12 +16,22 @@ body{
 
 /* Card Design & Responsive Width */
 .card{
+<<<<<<< HEAD
     width: 92%;
     max-width: 450px;
     background: linear-gradient(180deg, #12d8fa 0%, #1fa2ff 50%, #4355b9);
     color: #fff;
     padding: 30px 25px;
     border-radius: 25px;
+=======
+    width: 94%;
+    max-width: 450px;
+    background: linear-gradient(135deg, #00dbde, #fc00ff);
+    background: linear-gradient(180deg, #12d8fa 0%, #1fa2ff 50%, #4355b9);
+    color: #fff;
+    padding: 30px 25px;
+    border-radius: 20px;
+>>>>>>> 8eeb4fb5622e7803096bb849a1bc45d23ce032b4
     text-align: center;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
@@ -118,4 +128,36 @@ body{
 .col div p:last-child{
     font-size: 13px;
     font-weight: 300;
+<<<<<<< HEAD
 }
+=======
+}
+/*mobile*/
+@media (max-widh:600px) {
+    .card {
+        padding: 20px 20px;
+        border-radius: 20px;
+    }
+    .search {
+        margin-bottom: 20px;
+    }
+    .weather-icon {
+        width: 140px;
+    }
+
+    .weather .temp {
+        font-size: 48px;
+    }
+    .weather .city {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .col img {
+        width: 30px;
+    }
+    .col p {
+        font-size: 14px;
+    }
+    
+}
+>>>>>>> 8eeb4fb5622e7803096bb849a1bc45d23ce032b4
