@@ -182,11 +182,11 @@ body {
     left: 0px;
     right: 0px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   .search input {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   /* ================= WEATHER ================= */
@@ -204,25 +204,27 @@ body {
     top: -10px;
     left: 0;
     transform: none;
-    width: 180px;
+    width: 220px;
     height: auto;
     margin: 10px 0;
   }
 
   .weather h1 {
     position: relative;
-    top: 0px;
+    top: -5px;
     left: 0;
-    width: 100%;
+    width: 120%;
     margin: 5px 0;
     text-align: center;
-    font-size: 45px;
+    font-size: 50px;
     line-height: 1;
+    
+    
   }
 
   .weather h2 {
     position: relative;
-    top: 0;
+    top: -0px;
     left: 0;
     width: 100%;
     margin: 0;
@@ -236,20 +238,20 @@ body {
     position: relative;
     left: 0px;
     right: 0px;
-    bottom: 7px;
+    bottom: -45px;
     width: 100%;
-    margin-top: 20px;
-    padding-top: 15px;
+    margin-top: 15px;
+    padding-top: 30px;
     border-top: 1px solid rgba(255, 255, 255, 0.25);
     display: flex;
     justify-content: space-between;
   }
 
   .col img {
-    width: 35px;
+    width: 40px;
   }
 
   .col p {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
