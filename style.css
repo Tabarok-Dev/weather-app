@@ -201,7 +201,7 @@ body {
 
   .weather-icon {
     position: relative;
-    top: -10px;
+    top: -45px;
     left: 0;
     transform: none;
     width: 220px;
@@ -211,7 +211,7 @@ body {
 
   .weather h1 {
     position: relative;
-    top: -5px;
+    top: -40px;
     left: 0;
     width: 120%;
     margin: 5px 0;
